@@ -2,7 +2,7 @@
 require('conexiones/config.php');
 
 
-//Conexion a la BD
+//Conexion a la BASE DE DATOS
 $db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB);
 if (!$db) { exit('Imposible conectar con la base de datos.'); }
 
